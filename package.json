@@ -1,0 +1,31 @@
+{
+  "name": "bone-act-layout",
+  "version": "0.0.1",
+  "description": "layout for bone",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make"
+  },
+  "keywords": [
+    "layout",
+    "bone-act-layout"
+  ],
+  "config": {
+    "blanket": {
+      "pattern": "bone-act-less/lib"
+    }
+  },
+  "author": {
+    "name": "wyicwx",
+    "email": "wyicwx@gmail.com",
+    "web": "http://weibo.com/simplemaple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wyicwx/bone-act-layout.git"
+  },
+  "license": "MIT"
+}

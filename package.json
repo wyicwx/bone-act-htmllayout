@@ -1,21 +1,19 @@
 {
-  "name": "bone-act-layout",
-  "version": "0.0.1",
-  "description": "layout for bone",
+  "name": "bone-act-htmllayout",
+  "version": "0.3.0",
+  "description": "htmllayout for bone",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "make"
+    "test": "make",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
   },
   "keywords": [
     "layout",
-    "bone-act-layout"
+    "bone-act-htmllayout"
   ],
   "config": {
     "blanket": {
-      "pattern": "bone-act-less/lib"
+      "pattern": "bone-act-htmllayout/lib"
     }
   },
   "author": {
@@ -25,7 +23,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wyicwx/bone-act-layout.git"
+    "url": "https://github.com/wyicwx/bone-act-htmllayout.git"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "blanket": "*",
+    "istanbul": "~0.3.2",
+    "mocha": "*",
+    "bone": "^0.3.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "htmlparser2": "^3.9.0"
+  }
 }

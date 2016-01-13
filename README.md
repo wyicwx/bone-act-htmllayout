@@ -16,11 +16,11 @@ $ npm install bone-act-htmllayout
 
 ```js
 var bone = require('bone');
-var layout = bone.require('bone-act-layout');
+var htmllayout = bone.require('bone-act-htmllayout');
 
 bone.dest('dist')
 	.src('~/src/index.html')
-	.act(layout);
+	.act(htmllayout);
 ```
 
 index.html文件内容

@@ -75,6 +75,10 @@ layout.html文件内容
 </html>
 ```
 
+### filter
+
+默认设置只针对源文件后缀为`.html`和`.htm`文件进行处理
+
 ### 其他
 
 处理器开发以及使用请参考[处理器](https://github.com/wyicwx/bone/blob/master/docs/plugin.md)

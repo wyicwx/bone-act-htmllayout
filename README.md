@@ -1,8 +1,7 @@
 # bone-act-htmllayout
 > bone的layout处理器，为html文件提供layout功能
 
-[![NPM version](https://img.shields.io/npm/v/bone-act-htmllayout.svg?style=flat)](https://npmjs.org/package/bone-act-htmllayout) [![NPM version](https://img.shields.io/npm/dm/bone-act-htmllayout.svg?style=flat)](https://npmjs.org/package/bone-act-htmllayout) [![travis](https://api.travis-ci.org/wyicwx/bone-act-htmllayout.png)](https://travis-ci.org/wyicwx/bone-act-htmllayout) 
-[![Coverage Status](https://coveralls.io/repos/wyicwx/bone-act-htmllayout/badge.png?branch=master)](https://coveralls.io/r/wyicwx/bone-act-htmllayout?branch=master)
+[![NPM version](https://img.shields.io/npm/v/bone-act-htmllayout.svg?style=flat)](https://npmjs.org/package/bone-act-htmllayout) [![NPM version](https://img.shields.io/npm/dm/bone-act-htmllayout.svg?style=flat)](https://npmjs.org/package/bone-act-htmllayout) [![travis](https://api.travis-ci.org/wyicwx/bone-act-htmllayout.png)](https://travis-ci.org/wyicwx/bone-act-htmllayout)
 
 ### 安装及使用
 
